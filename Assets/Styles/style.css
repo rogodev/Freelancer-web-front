@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+.Main-title{
+    text-align: center;
+}
+
+.Main-title span{
+    font-size: 0.7em;
+}
+
+
+header{
+    width: 100vw;
+    text-align: center;
+
+}
+
+.header-info{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/Assets/Images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header-info h2{
+    font-size: 30px;
+}
+
+.header-info figure{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.header-info figure img{
+    width: 50px;
+}
+
+.Contacto-button{
+    background-color: rgb(4, 116, 160);
+    padding : 15px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Contacto-button:hover{
+    background-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.Contacto-button:active{
+    background-color: rgb(255, 222, 124);
+    color: black;
+}
+
+header nav{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(4, 116, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+
+}
+header nav ul li {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+header nav ul li a {
+    text-decoration: none;
+
+    font-weight: bold;
+    color: inherit;
+}
+
+header nav ul li:hover {
+    text-decoration: none;
+    background-color: rgb(255, 193, 7);
+    color: black;
+}
+
+header nav ul li:active{
+    background-color: rgb(255, 222, 124);
+}
+
+
+
+
+.Servicios{
+    background-color: rgb(242, 247, 253);
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+
+}
+
+.Servicios img{
+    width: 40px;
+    height: 40px;
+}
+
+.servicios-target{
+    background-color: white;
+    width: 60%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.412);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.articulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.Servicio{
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: fit-content;
+}
+
+.Servicio h3{
+    color: rgb(4, 116, 160);
+}
+
+.img-container{
+    background-color: rgb(255, 193, 7);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .Main-title{
+        font-size: 24px;
+    }
+
+    header nav{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    header nav ul{
+        
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    header nav ul li{
+        width: 100%;
+        padding: 10px;
+        height: 1em;
+        font-size: 18px;
+    }
+
+    .Servicios {
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+
+    }
+
+    .articulos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap: 20px;
+    }
+
+    .Servicio{
+        width: 100%;
+    }
+
+    .Servicio p {
+        width: 100%;
+    }
+} 
