@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto",sans-serif;
+    scroll-behavior: smooth;
 }
 
 .Main-title{
@@ -18,11 +19,10 @@
 header{
     width: 100vw;
     text-align: center;
-
 }
 
 .header-info{
-    height: 50vh;
+    height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/Assets/Images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,6 +210,7 @@ header nav ul li:active{
     border: none;
     padding: 0;
 
+    
 }
 
 .formulario legend{
@@ -221,16 +222,21 @@ header nav ul li:active{
     font-weight: bold;
     text-transform: uppercase;
 }
+.contenedor-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
 
 .form-label{
     margin-bottom: 10px;
     color: white;
     font-weight: bold;
-
+    width: 90%;
     display: flex;
     flex-direction: column;
 
-    align-items: center;
     text-align: left;
 }
 
@@ -245,14 +251,45 @@ header nav ul li:active{
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;
-    width: 90%;
-    padding: 15px;
+    width: 100% - 1em;
+    padding: 1em;
     border-radius: 5px;
     border: none;
 }
 
+.form-label textarea{
+    height: 14rem;
+}
+
 .Enviar-button{
     border: none;
+}
+
+
+.footer{
+    height:30vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.footer-nav{
+    margin-top: 150px;
+}
+
+.footer-nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer-nav-list li:hover{
+    transform: scale(1.1);
 }
 
 
