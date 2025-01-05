@@ -1,6 +1,7 @@
 # 💼 Freelancer Portfolio Website 🌐
 
-Este repositorio contiene el código fuente de una **página web de portafolio para freelancers**, diseñada para que profesionales independientes puedan ofrecer sus servicios de manera efectiva y elegante. El proyecto utiliza **HTML5** y **CSS3** para garantizar un diseño moderno, responsive y fácil de personalizar.
+Este repositorio contiene el código fuente de una **página web de portafolio para freelancers**, diseñada para que personas independientes puedan ofrecer sus servicios de manera efectiva y elegante. El proyecto utiliza **HTML5** y **CSS3** para garantizar un diseño moderno, responsive y fácil de personalizar.
+https://stately-fox-ba6930.netlify.app
 
 ---
 
